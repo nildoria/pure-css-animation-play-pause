@@ -10,7 +10,6 @@ body {
   --accretion: #bc00f3;
   --doppler: #5b3cf5;
 }
-
 #bh--container {
   display: grid;
   place-items: center;
@@ -33,7 +32,6 @@ body {
     background-position: 0% 50%;
   }
 }
-
 #bh--doppler {
   width: 40vw;
   height: 40vw;
@@ -45,7 +43,6 @@ body {
   background: linear-gradient(-45deg, var(--accretion), #20184a, #1c163b);
   opacity: 0.3;
 }
-
 @keyframes doppler {
   0% {
     transform: scale(1) rotate(0deg);
